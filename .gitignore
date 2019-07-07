@@ -17,3 +17,7 @@ Desktop.ini
 /Library
 /Logs
 /Temp
+
+# More Visual Studio
+.vs
+obj
