@@ -18,7 +18,9 @@ namespace Evp3
 
         void Start()
         {
-            if (shouldActivateSecondDisplay) Display.displays[1].Activate();
+            // WTF... https://answers.unity.com/questions/1428675/does-multi-display-work-on-mac-os-x.html
+            if (shouldActivateSecondDisplay)
+                Display.displays[1].Activate();
         }
     }
 }
